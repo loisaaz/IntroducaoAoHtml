@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte Arial para o corpo do documento */
+    background-color: #FFFF80; /* Define a cor de fundo da página */
+  }
+
+  h2 {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+  }
+
+  table {
+    font-family: monospace; /* Define a fonte monospace para a tabela */
+    border-collapse: collapse; /* Mescla as bordas das células da tabela */
+    width: 100%; /* Define a largura da tabela como 100% do contêiner pai */
+  }
+
+  th, td {
+    padding: 8px; /* Adiciona um espaçamento interno de 8 pixels para as células */
+
+  }
+
+  tr:nth-child(even) {
+    background-color: #e6e600; /* Define a cor de fundo para linhas pares */
+  }
+
+  tr:nth-child(odd) {
+    background-color: #FFFF80; /* Define a cor de fundo para linhas ímpares */
+  }
+  td, th {
+border: 1px solid #000000;
+text-align: left;
+padding: 8px;
+}
